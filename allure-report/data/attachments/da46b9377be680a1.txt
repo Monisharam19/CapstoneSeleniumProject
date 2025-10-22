@@ -1,0 +1,1 @@
+Successfully read text from inside the frame: 'This is a sample page'

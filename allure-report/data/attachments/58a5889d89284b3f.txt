@@ -1,0 +1,3 @@
+Successfully handled simple alert with text: 'You clicked a button'
+Successfully accepted a confirmation alert and verified the message: 'You selected Ok'
+Successfully handled a prompt alert and verified the result: 'You entered Selenium Test'

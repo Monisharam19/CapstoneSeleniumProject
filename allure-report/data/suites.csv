@@ -1,0 +1,108 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+Covers:
+- ALERTS
+","36345","test_alerts","tests","Wed Oct 22 19:09:30 IST 2025","passed","Wed Oct 22 19:10:06 IST 2025","","test_advanced_actions","",""
+"
+Tests a simple form submission using the Page Object Model with multiple data sets.
+","44337","test_form_submission[Peter-Jones-peter.jones@example.net-1122334455]","tests","Wed Oct 22 19:14:32 IST 2025","passed","Wed Oct 22 19:15:16 IST 2025","","test_form_submission_ddt","",""
+"
+Covers:
+- FILE DOWNLOAD
+","45773","test_file_download","tests","Wed Oct 22 19:10:56 IST 2025","passed","Wed Oct 22 19:11:42 IST 2025","","test_file_operations","",""
+"
+Covers:
+- AUTOCOMPLETE WIDGET
+","32526","test_autocomplete","tests","Wed Oct 22 19:20:19 IST 2025","passed","Wed Oct 22 19:20:51 IST 2025","","test_widgets","",""
+"
+Covers:
+- BROKEN LINKS
+This test finds all links on the page, sends an HTTP request to each one,
+and reports any that do not return a success status code (2xx or 3xx).
+","25662","test_broken_links","tests","Wed Oct 22 19:17:53 IST 2025","passed","Wed Oct 22 19:18:19 IST 2025","","test_validation","",""
+"
+Covers:
+- FILE UPLOADING USING SENDKEYS
+Note: For this to work, you need a file named 'sample.txt' in the project's root directory.
+PyAutoGUI is not used here as it's less reliable in automated/headless environments.
+`send_keys` on an `<input type=""file"">` element is the standard, preferred method.
+","118326","test_file_upload_send_keys","tests","Wed Oct 22 18:57:58 IST 2025","broken","Wed Oct 22 18:59:56 IST 2025","","test_waits_and_uploads","",""
+"
+Covers:
+- BROKEN LINKS
+This test finds all links on the page, sends an HTTP request to each one,
+and reports any that do not return a success status code (2xx or 3xx).
+","28292","test_broken_links","tests","Wed Oct 22 19:15:26 IST 2025","passed","Wed Oct 22 19:15:54 IST 2025","","test_interactions","",""
+"
+Covers:
+- WINDOW HANDLING
+","14460","test_window_handling","tests","Wed Oct 22 19:13:30 IST 2025","passed","Wed Oct 22 19:13:45 IST 2025","","test_final_interactions","",""
+"
+Tests a simple form submission using the Page Object Model with multiple data sets.
+","29294","test_form_submission[Jane-Doe-jane.doe@example.com-9876543210]","tests","Wed Oct 22 19:13:52 IST 2025","passed","Wed Oct 22 19:14:21 IST 2025","","test_form_submission_ddt","",""
+"
+Covers:
+- DATE PICKER WIDGET
+","23101","test_date_picker","tests","Wed Oct 22 19:19:47 IST 2025","passed","Wed Oct 22 19:20:10 IST 2025","","test_widgets","",""
+"
+Covers:
+- CHECK BOX
+","20044","test_checkboxes","tests","Wed Oct 22 19:15:58 IST 2025","passed","Wed Oct 22 19:16:19 IST 2025","","test_remaining_elements","",""
+"
+Covers:
+- WEB TABLE
+","23647","test_web_table","tests","Wed Oct 22 19:12:59 IST 2025","passed","Wed Oct 22 19:13:23 IST 2025","","test_final_interactions","",""
+"
+Covers:
+- FILE UPLOAD
+","32074","test_file_upload","tests","Wed Oct 22 19:10:14 IST 2025","passed","Wed Oct 22 19:10:46 IST 2025","","test_file_operations","",""
+"
+Covers:
+- DROP DOWN
+","21193","test_dropdown","tests","Wed Oct 22 19:12:32 IST 2025","passed","Wed Oct 22 19:12:53 IST 2025","","test_final_interactions","",""
+"
+Covers:
+- WAIT (Explicit Wait)
+","36014","test_explicit_wait","tests","Wed Oct 22 19:18:24 IST 2025","passed","Wed Oct 22 19:19:00 IST 2025","","test_waits_and_uploads","",""
+"
+Covers:
+- WINDOW HANDLING
+","12458","test_window_handling","","Wed Oct 22 17:29:10 IST 2025","passed","Wed Oct 22 17:29:22 IST 2025","","","",""
+"
+Covers:
+- DROP DOWN
+","26195","test_dropdown","tests","Wed Oct 22 19:16:24 IST 2025","passed","Wed Oct 22 19:16:50 IST 2025","","test_remaining_elements","",""
+"
+Covers:
+- WEB TABLE
+","29390","test_web_table","tests","Wed Oct 22 19:16:57 IST 2025","passed","Wed Oct 22 19:17:26 IST 2025","","test_remaining_elements","",""
+"
+Covers:
+- WINDOW HANDLING
+","13874","test_window_handling","tests","Wed Oct 22 19:17:32 IST 2025","passed","Wed Oct 22 19:17:46 IST 2025","","test_remaining_elements","",""
+"
+Covers:
+- WEB TABLE
+","53216","test_web_table","","Tue Oct 21 13:05:11 IST 2025","passed","Tue Oct 21 13:06:04 IST 2025","","","",""
+"
+Covers:
+- CHECK BOX
+","32406","test_checkboxes","tests","Wed Oct 22 19:11:51 IST 2025","passed","Wed Oct 22 19:12:24 IST 2025","","test_final_interactions","",""
+"
+Covers:
+- CHECK BOX
+- DROP DOWN
+","120255","test_checkboxes_and_dropdown","tests","Tue Oct 21 17:33:31 IST 2025","broken","Tue Oct 21 17:35:31 IST 2025","","test_remaining_elements","",""
+"
+Covers:
+- MOUSE HOVER ACTION
+- DRAG & DROP AND RIGHT CLICK
+","55702","test_mouse_actions","tests","Wed Oct 22 19:08:27 IST 2025","passed","Wed Oct 22 19:09:23 IST 2025","","test_advanced_actions","",""
+"
+Covers:
+- SLIDER WIDGET
+","33397","test_slider","tests","Wed Oct 22 19:19:08 IST 2025","passed","Wed Oct 22 19:19:41 IST 2025","","test_widgets","",""
+"
+Covers:
+- FRAME HANDLING
+","36589","test_frame_handling","tests","Wed Oct 22 18:48:24 IST 2025","broken","Wed Oct 22 18:49:00 IST 2025","","test_advanced_actions","",""

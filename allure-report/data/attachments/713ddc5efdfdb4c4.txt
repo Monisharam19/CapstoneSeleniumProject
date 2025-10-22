@@ -1,0 +1,2 @@
+Successfully switched to new tab and verified content.
+Successfully closed new tab and returned to original window.

@@ -1,0 +1,6 @@
+Found 5 links. Checking their status...
+OK: https://demoqa.com/ (Status: 200)
+OK: http://demoqa.com/ (Status: 200)
+OK: http://the-internet.herokuapp.com/status_codes/500 (Status: 500)
+
+Checked 3 links.
