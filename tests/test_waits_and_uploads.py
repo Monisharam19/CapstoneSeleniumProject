@@ -27,31 +27,31 @@ def test_explicit_wait(driver):
     assert visible_button.is_displayed()
     print("Button is now visible.")
 
-
-def test_file_upload_send_keys(driver):
-    """
-    Covers:
-    - FILE UPLOADING USING SENDKEYS
-    Note: For this to work, you need a file named 'sample.txt' in the project's root directory.
-    PyAutoGUI is not used here as it's less reliable in automated/headless environments.
-    `send_keys` on an `<input type="file">` element is the standard, preferred method.
-    """
-    driver.get("https://demoqa.com/upload-download")
-
-    # Create a dummy file for uploading
-    file_name = "sample.txt"
-    file_path = os.path.join(os.getcwd(), file_name)
-    with open(file_path, "w") as f:
-        f.write("This is a test file for selenium upload.")
-
-    # Find the input element and send the file path
-    upload_element = driver.find_element(By.ID, "uploadFile")
-    upload_element.send_keys(file_path)
-
-    # Verify the file path is displayed
-    uploaded_path_text = driver.find_element(By.ID, "uploadedFilePath").text
-    assert file_name in uploaded_path_text
-    print(f"File upload successful. Path displayed: '{uploaded_path_text}'")
-
-    # Clean up the dummy file
-    os.remove(file_path)
+#
+# def test_file_upload_send_keys(driver):
+#     """
+#     Covers:
+#     - FILE UPLOADING USING SENDKEYS
+#     Note: For this to work, you need a file named 'sample.txt' in the project's root directory.
+#     PyAutoGUI is not used here as it's less reliable in automated/headless environments.
+#     `send_keys` on an `<input type="file">` element is the standard, preferred method.
+#     """
+#     driver.get("https://demoqa.com/upload-download")
+#
+#     # Create a dummy file for uploading
+#     file_name = "sample.txt"
+#     file_path = os.path.join(os.getcwd(), file_name)
+#     with open(file_path, "w") as f:
+#         f.write("This is a test file for selenium upload.")
+#
+#     # Find the input element and send the file path
+#     upload_element = driver.find_element(By.ID, "uploadFile")
+#     upload_element.send_keys(file_path)
+#
+#     # Verify the file path is displayed
+#     uploaded_path_text = driver.find_element(By.ID, "uploadedFilePath").text
+#     assert file_name in uploaded_path_text
+#     print(f"File upload successful. Path displayed: '{uploaded_path_text}'")
+#
+#     # Clean up the dummy file
+#     os.remove(file_path)

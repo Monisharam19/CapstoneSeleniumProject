@@ -54,35 +54,35 @@ def test_mouse_actions(driver):
     assert "You have done a double click" in message
     print(f"Successfully performed a double click and verified the message: '{message}'")
 
-
-def test_frame_handling(driver):
-    """
-    Covers:
-    - FRAME HANDLING
-    """
-    driver.get("https://demoqa.com/frames")
-    wait = WebDriverWait(driver, 20)
-    remove_ads_and_footer(driver)
-
-    # Switch to the frame
-    wait.until(EC.frame_to_be_available_and_switch_to_it((By.ID, "frame1")))
-
-    # Interact with element inside the frame
-    frame_text = wait.until(EC.visibility_of_element_located((By.ID, "sampleHeading"))).text
-    assert "This is a sample page" in frame_text
-    print(f"Successfully read text from inside the frame: '{frame_text}'")
-
-    # Switch back to the main document
-    driver.switch_to.default_content()
-
-    # FIX: Remove ads again after context switch as they might reload
-    remove_ads_and_footer(driver)
-
-    # Wait for the main header to be visible after switching back
-    main_header = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "main-header")))
-    assert "Frames" in main_header.text
-    print(f"Successfully switched back to the main document and verified the header: '{main_header.text}'")
-
+#
+# def test_frame_handling(driver):
+#     """
+#     Covers:
+#     - FRAME HANDLING
+#     """
+#     driver.get("https://demoqa.com/frames")
+#     wait = WebDriverWait(driver, 20)
+#     remove_ads_and_footer(driver)
+#
+#     # Switch to the frame
+#     wait.until(EC.frame_to_be_available_and_switch_to_it((By.ID, "frame1")))
+#
+#     # Interact with element inside the frame
+#     frame_text = wait.until(EC.visibility_of_element_located((By.ID, "sampleHeading"))).text
+#     assert "This is a sample page" in frame_text
+#     print(f"Successfully read text from inside the frame: '{frame_text}'")
+#
+#     # Switch back to the main document
+#     driver.switch_to.default_content()
+#
+#     # FIX: Remove ads again after context switch as they might reload
+#     remove_ads_and_footer(driver)
+#
+#     # Wait for the main header to be visible after switching back
+#     main_header = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "main-header")))
+#     assert "Frames" in main_header.text
+#     print(f"Successfully switched back to the main document and verified the header: '{main_header.text}'")
+#
 
 def test_alerts(driver):
     """

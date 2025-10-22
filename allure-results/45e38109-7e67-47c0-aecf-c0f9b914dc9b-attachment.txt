@@ -1,0 +1,2 @@
+Initial slider value: 25
+New slider value: 58
