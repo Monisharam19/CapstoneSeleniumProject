@@ -1,0 +1,1 @@
+{"name": "test_web_table", "status": "passed", "description": "\nCovers:\n- WEB TABLE\n", "start": 1761032111512, "stop": 1761032164728, "uuid": "5ea28b4d-193e-49f6-b436-cacbfbf85cb6", "testCaseId": "9f02918b09da0b3ea1590b16ec083b84", "fullName": "tests.test_remaining_elements#test_web_table", "titlePath": ["tests", "test_remaining_elements.py"]}

@@ -1,0 +1,2 @@
+Successfully verified checkbox selection.
+Successfully verified dropdown selection.

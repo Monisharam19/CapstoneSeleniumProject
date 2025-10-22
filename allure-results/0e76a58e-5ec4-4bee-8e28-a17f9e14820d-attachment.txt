@@ -1,0 +1,1 @@
+Screenshot saved to screenshots\test_checkboxes_and_dropdown.png and attached to Allure report.

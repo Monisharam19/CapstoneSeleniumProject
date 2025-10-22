@@ -1,0 +1,1 @@
+Screenshot saved to screenshots\test_window_handling.png and attached to Allure report.

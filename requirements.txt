@@ -1,0 +1,13 @@
+# This file contains the necessary Python packages for the project.
+# Install them using: pip install -r requirements.txt
+
+pytest
+selenium
+webdriver-manager
+requests
+# For Allure reports
+allure-pytest
+# For reading .xlsx files
+openpyxl
+# For running tests in parallel
+pytest-xdist

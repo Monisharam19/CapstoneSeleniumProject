@@ -1,0 +1,1 @@
+{"name": "test_window_handling", "status": "passed", "description": "\nCovers:\n- WINDOW HANDLING\n", "start": 1761134350078, "stop": 1761134362536, "uuid": "2ff79af8-0acf-434a-831a-e3ee70d58269", "testCaseId": "0670e18f6c5b090d054baec46c08340f", "fullName": "tests.test_remaining_elements#test_window_handling", "titlePath": ["tests", "test_remaining_elements.py"]}

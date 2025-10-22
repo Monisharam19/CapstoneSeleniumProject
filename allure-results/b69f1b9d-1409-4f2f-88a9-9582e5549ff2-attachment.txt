@@ -1,0 +1,2 @@
+Successfully performed a right click and verified the message: 'You have done a right click'
+Successfully performed a double click and verified the message: 'You have done a double click'
